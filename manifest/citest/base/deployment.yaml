@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: sampleapp
-        image: templain/citest:latest
+        image: templain/citest:7d32dc655d9a9cf45bbb51d587d5fd18059e2194
         ports:
           - containerPort: 80
