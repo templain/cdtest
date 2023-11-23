@@ -3,5 +3,5 @@ namePrefix: dev-
 bases:
 - ../../base
 
-patches:
+patchesStrategicMerge:
 - env.yaml
