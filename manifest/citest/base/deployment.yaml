@@ -15,7 +15,7 @@ spec:
         app.kubernetes.io/name: citest
     spec:
       containers:
-      - name: sampleapp
+      - name: citest
         image: templain/citest:06428ef6368258f9dd4d08d56a67e320551fd3cc
         ports:
           - containerPort: 80
