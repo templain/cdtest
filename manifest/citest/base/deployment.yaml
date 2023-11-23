@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: citest
+  labels:
+    app.kubernetes.io/name: citest
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app.kubernetes.io/name: citest
+  template:
+    metadata:
+      labels:
+        app.kubernetes.io/name: citest
+    spec:
+      containers:
+      - name: sampleapp
+        image: templain/citest:latest
+        ports:
+          - containerPort: 80
