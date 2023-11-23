@@ -11,4 +11,4 @@ spec:
   source:
     path: manifest/citest/overlays/dev
     repoURL: https://github.com/templain/cdtest
-    targetRevision: dev
+    targetRevision: main
