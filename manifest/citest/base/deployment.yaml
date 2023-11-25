@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: citest
-        image: templain/citest:f70f7ca57ee55fa1ff58905844434bbc332fdea5
+        image: templain/citest:bff485b3634a8acb7346a8659f28ba3653af24d3
         ports:
           - containerPort: 80
